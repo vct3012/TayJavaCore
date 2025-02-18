@@ -33,11 +33,18 @@ public class VongLap {
 //            }
 //        }
 //    }
-        int x = 5;
-        while (x <= 10) {
-            System.out.println(x);
-            x++;
-        }
+        int y = 5;
+        do {
+            System.out.println(y);
+            y++;
+        } while (y <= 10);
+    }
+
+    /**
+     * @param msg
+     */
+    public static void printMessage(String msg) {
+        System.out.println();
     }
 }
 
